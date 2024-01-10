@@ -111,13 +111,15 @@ function App() {
         placeholder="type file or folder name"
         onChange={handleSearchTextChange}
       />
-      {filteredFileSystem && (
+      {filteredFileSystem ? (
         <FileSystemEntryComponent
           fileSystemEntryInfo={filteredFileSystem}
           openAll={searchText.length > 0}
           onDelete={handleDelete}
           path={""}
         />
+      ) : (
+        <p>File or directory not found</p>
       )}
     </div>
   );
