@@ -1,0 +1,87 @@
+{
+  "entryType": "directory",
+  "name": "Program Files",
+  "hasAccess": true,
+  "children": [
+    {
+      "entryType": "file",
+      "name": "a.jpg"
+    },
+    {
+      "entryType": "directory",
+      "name": "Games",
+      "hasAccess": true,
+      "children": [
+        {
+          "entryType": "file",
+          "name": "Sims2.exe"
+        },
+        {
+          "entryType": "file",
+          "name": "Sims3.exe"
+        },
+        {
+          "entryType": "file",
+          "name": "Warcraft.exe"
+        },
+        {
+          "entryType": "file",
+          "name": "Doom.exe"
+        },
+        {
+          "entryType": "file",
+          "name": "uninstall.exe"
+        }
+      ]
+    },
+    {
+      "entryType": "directory",
+      "name": "Work",
+      "hasAccess": true,
+      "children": [
+        {
+          "entryType": "file",
+          "name": "project1.exe"
+        },
+        {
+          "entryType": "file",
+          "name": "project3.exe"
+        },
+        {
+          "entryType": "file",
+          "name": "project10.exe"
+        },
+        {
+          "entryType": "file",
+          "name": "project1221.exe"
+        },
+        {
+          "entryType": "file",
+          "name": "project101.exe"
+        },
+
+        {
+          "entryType": "directory",
+          "name": "photos",
+          "hasAccess": false,
+          "children": [
+            {
+              "entryType": "file",
+              "name": "home.jpg"
+            },
+            {
+              "entryType": "file",
+              "name": "family.jpg"
+            }
+          ]
+        },
+        {
+          "entryType": "directory",
+          "name": "emptyfolder",
+          "hasAccess": false,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
